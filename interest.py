@@ -35,7 +35,7 @@ class TestInterestCalculator (unittest.TestCase):
         n = 365
         
         # Action - Call the method to be tested
-        result_should_be = 270.36
+        result_should_be = 370.36
         interest = interest_calculator(p, r, n)
 
         # Assert - test what should be true
